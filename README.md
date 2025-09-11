@@ -15,4 +15,4 @@ A simple recipe search engine that helps users discover recipes based on the ing
 
 ---
 ## 👨‍💻 Author
-Made with ♥️ by Oshal Baranwal (CSA Round 2 Submission)
+Made with ♥️ by **Oshal Baranwal** (CSA Round 2 Submission)
