@@ -45,6 +45,14 @@ const updatePantryIngredients = (ingredientIDs, ingredientNamesAndIDs) => {
     const pantryElementsContainer = document.querySelector('div.pantry-items');
     pantryElementsContainer.replaceChildren([]);
 
+    // dynamic spacing between searchbar and items
+    const searchBarContainer = document.querySelector('div:has(input#pantry-input[type="text"])');
+    searchBarContainer.classList.remove('mb-5');
+
+    if (ingredientIDs.length > 0) {
+        searchBarContainer.classList.add('mb-5');
+    }
+
     for (let i = 0; i < ingredientIDs.length; i++) {
         const ingredient = ingredientNamesAndIDs.find((elem) => elem.id === ingredientIDs[i]);
 
