@@ -4,7 +4,7 @@ A simple recipe search engine that helps users discover recipes based on the ing
 
 ---
 ## 🚀 Features
- - **Search Recipes**: Find recipes by name or ingredient using TheMealDB API.
+ - **Search Recipes**: Find recipes by name using TheMealDB API.
  - **My Pantry**: Add and remove ingredients you have on hand.
  - **What Can I Make?**: Shows recipes that can be made only with the ingredients in your pantry.
 

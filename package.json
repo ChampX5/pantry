@@ -1,0 +1,16 @@
+{
+    "name": "pantry",
+    "version": "1.0.0",
+    "description": "A simple recipe search engine that helps users discover recipes based on the ingredients they already have.",
+    "main": "index.js",
+    "scripts": {
+        "compile-css": "npx @tailwindcss/cli -i ./input.css -o ./style.css",
+        "compile-css-watch": "npx @tailwindcss/cli -i ./input.css -o ./style.css --watch"
+    },
+    "author": "Oshal Baranwal",
+    "license": "ISC",
+    "dependencies": {
+        "@tailwindcss/cli": "^4.1.13",
+        "tailwindcss": "^4.1.13"
+    }
+}
