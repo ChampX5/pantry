@@ -179,9 +179,9 @@ const updateRecipes = (recipes) => {
 
     for (const recipe of recipes) {
         const name =
-            recipe.strMeal.length <= 25
+            recipe.strMeal.length <= 40
                 ? recipe.strMeal
-                : recipe.strMeal.slice(0, 22) + '...';
+                : recipe.strMeal.slice(0, 37) + '...';
         const thumbnailURL = recipe.strMealThumb;
         const id = recipe.idMeal;
 
@@ -192,6 +192,7 @@ const updateRecipes = (recipes) => {
         thumbnailDiv.classList.add('recipe-thumbnail');
 
         const thumbnailImg = document.createElement('img');
+        thumbnailImg.classList.add('recipe-thumbnail-image');
         thumbnailImg.src = thumbnailURL;
 
         thumbnailDiv.appendChild(thumbnailImg);
