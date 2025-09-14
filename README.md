@@ -10,7 +10,7 @@ A simple recipe search engine that helps users discover recipes based on the ing
 
 ---
 ## 🛠️ Tech Stack
- - **Frontend**: HTML, CSS, JavaScript
+ - **Frontend**: HTML, CSS (Tailwind), JavaScript
  - **API**: [TheMealDB API](https://www.themealdb.com/) (free recipe database)
 
 ---
