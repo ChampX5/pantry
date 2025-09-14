@@ -179,9 +179,9 @@ const updateRecipes = (recipes) => {
 
     for (const recipe of recipes) {
         const name =
-            recipe.strMeal.length <= 40
+            recipe.strMeal.length <= 20
                 ? recipe.strMeal
-                : recipe.strMeal.slice(0, 37) + '...';
+                : recipe.strMeal.slice(0, 17) + '...';
         const thumbnailURL = recipe.strMealThumb;
         const id = recipe.idMeal;
 
